@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100..900&family=Roboto+Serif:ital,opsz,wdth,wght,GRAD@0,8..144,50..150,100..900,-50..100;1,8..144,50..150,100..900,-50..100&family=Roboto:wght@100..900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+	border:none;
+	outline: none;
+}
+body{
+	font-family: "Roboto", serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 {
+	font-family: "Roboto", serif;
+    font-style: normal;
+	margin-bottom: 0;
+    line-height: 1.2;	
+    font-weight:500;
+    transition: .5s;
+	font-size:22px;
+    color:#000;
+    margin-bottom:10px;	
+	
+}
+html,
+body{
+	overflow-x:hidden;
+	margin:0;
+	scroll-behavior:smooth;
+	
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    text-align: center;
+    margin: 20px;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.cart-item {
+    display: inherit;
+}
+
+.checkout {
+    margin-top: 20px;
+    padding-top: 10px;
+    text-align: center;
+}
+.promo-code {
+    margin: 10px 0;
+}
+
+input {
+    padding: 8px;
+    width: 60%;
+}
+
+button {
+    padding: 8px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#promo-message {
+    color: red;
+    font-weight: bold;
+}
+.checkout input {
+    border: 1px solid #ddd;
+}
+.card-price {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 49px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.cart-item {
+    display: inherit;
+    background: #bebebe;
+    padding: 10px;
+}
+
+.cart-item img {
+    text-align: center;
+}
+
+
+
